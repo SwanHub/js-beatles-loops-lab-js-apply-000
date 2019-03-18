@@ -25,19 +25,3 @@ function johnLennonFacts(array) {
   
 }
 
-function iLoveTheBeatles(num) {
-  var i = 0;
-  var empty = [];
-    
-    if (num === 17) {
-      do {
-        empty.push("I love the Beatles!")
-        i++;
-      } while (i < num - 16);
-      return empty;
-    } else do {
-      empty.push("I love the Beatles!");
-      i++;      
-    } while (i < num + 1);
-    return empty;
-}
